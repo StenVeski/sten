@@ -4,10 +4,10 @@
 
 #ruutude ja kuupide tabel
 
+print("   Arv | Ruut | Kuup")
+for d in range(1,11):
+    print(f" {d:6}|{d*d:6}|{d*d*d:6}")
 
-arv =
-ruut =
-kuup = 
 
 
 
