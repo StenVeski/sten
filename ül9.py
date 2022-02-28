@@ -4,7 +4,7 @@
 
 
 #kuupäev
-'''
+
 import datetime
 from datetime import timedelta
 import locale
@@ -13,7 +13,7 @@ locale.setlocale(locale.LC_ALL, 'et')
 kuupäev = datetime.datetime.now()
 
 print(kuupäev.strftime("%d.%B.%y"))
-'''
+
 
 #isikukood
 
