@@ -9,21 +9,19 @@ import turtle
 aken = turtle.Screen()
 aken.setup(500,500)
 aken.title("Iseseisevtöö")
-varv = ('blue')
 
+nurk = 0
 kk = turtle.Turtle()
-for i in range(3):
-    kk.color(varv)
-    kk.forward(100)
+for i in range(6):
+    kk.lt(nurk)
+    kk.fd(50)
+    kk.lt(120)
+    kk.fd(100)
     kk.left(120)
-    kk.forward(100)
-    
-for i in range(3):
-    kk.color(varv)
-    kk.left(120)
-    kk.forward(100)
-    kk.left(120)
-    
+    kk.fd(100)
+    kk.lt(120)
+    kk.fd(50)
+    nurk =60
 
 
 
