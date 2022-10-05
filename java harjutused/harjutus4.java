@@ -1,4 +1,5 @@
-// Sten Veski IT21
+// Sten Veski IT21 Harjutus 4 //
+
 package harjutused;
 import java.util.Scanner;
 	
