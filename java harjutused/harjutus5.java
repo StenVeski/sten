@@ -1,8 +1,9 @@
-// Sten Veski Harjutus 5
+// Sten Veski IT21 Harjutus 5 //
 
+package harjutused;
 import java.util.Scanner;
 
-public class harjutus05 {
+public class harjutus5 {
 	    public static void main(String[] args) {
 
             jaga(0);
@@ -25,6 +26,7 @@ public class harjutus05 {
                     }
         else {
             System.out.println("Vale vastus");
+        
         }
         }
     }
