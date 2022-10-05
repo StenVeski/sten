@@ -1,3 +1,5 @@
+// Sten Veski IT21 Harjutus 3 //
+
 package harjutused;
 import java.util.stream.*;
 
