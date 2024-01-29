@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Classification</title>
+    <style>
+        .list-group-item-warning {
+            background-color: #fff3cd;
+        }
+
+        .list-group-item-success {
+            background-color: #d4edda;
+            font-weight: 700;
+        }
+
+        .list-group-item-danger {
+            background-color: #f8d7da;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <ul class="list-group" id="myList">
+            <li class="list-group-item">Ootel: Lorem ipsum dolor sit amet</li>
+            <li class="list-group-item">Tehtud: Lorem ipsum dolor sit amet</li>
+            <li class="list-group-item">Viga: Lorem ipsum dolor sit amet</li>
+            <li class="list-group-item">Tehtud: Lorem ipsum dolor sit amet</li>
+            <li class="list-group-item">Tehtud: Lorem ipsum dolor sit amet</li>
+            <li class="list-group-item">Lorem ipsum dolor sit amet</li>
+            <li class="list-group-item">Viga: Lorem ipsum dolor sit amet</li>
+        </ul>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var listItems = document.querySelectorAll("#myList li");
+
+            listItems.forEach(function (item) {
+                if (item.textContent.includes("Ootel")) {
+                    item.classList.add("list-group-item-warning");
+                } else if (item.textContent.includes("Tehtud")) {
+                    item.classList.add("list-group-item-success");
+                } else if (item.textContent.includes("Viga")) {
+                    item.classList.add("list-group-item-danger");
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
